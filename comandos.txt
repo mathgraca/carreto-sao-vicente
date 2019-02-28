@@ -1,0 +1,13 @@
+Build
+sudo docker build -t carreto-sao-vicente -f Dockerfile .
+
+Run
+docker run -p 49160:8080 -d carreto-sao-vicente
+
+Tag
+docker tag carreto-sao-vicente matheusgraca/personal:carreto-sao-vicente
+
+push
+docker push matheusgraca/personal:carreto-sao-vicente
+
+[ "CMD-SHELL","curl -f http://localhost:8080/health || exit 1" ]

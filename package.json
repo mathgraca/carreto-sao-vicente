@@ -1,0 +1,22 @@
+{
+  "name": "carreto-sao-vicente",
+  "version": "1.0.0",
+  "description": "Carreto Sao Vicente e baixada santista",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "carreto",
+    "sao",
+    "vicente",
+    "mudanca"
+  ],
+  "author": "MgracaTechnology",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "sitemap": "^2.1.0"
+  }
+}

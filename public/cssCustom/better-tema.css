@@ -1,0 +1,41 @@
+@font-face {
+    font-family: adventpro;
+    src: url(adventpro-regular.ttf) ;
+}
+@font-face {
+    font-family: adventpro;
+    src: url(adventpro-bold.ttf); 
+    font-weight: bold;
+}
+
+
+.jumbotron	{
+		padding:	2rem	1rem;
+		margin-bottom:	2rem;
+		border-radius:	0.3rem;
+		background-size:	cover;
+		background-position:	center;
+		min-height:	40%;
+}
+.text-adwhite { color: #f2f2f2;font-family: adventpro; }
+
+.back-somos { background-color: #FFEBCD;font-family: adventpro;color: #FF3366 }
+
+.mobileShow {display: none;} 
+
+  /* Smartphone Portrait and Landscape */ 
+  @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 480px){ 
+      .mobileShow {display: inline;}
+  }
+
+.mobileHide { display: inline; } 
+
+  /* Smartphone Portrait and Landscape */ 
+  @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 480px){ 
+     .mobileHide { display: none;}
+  }
+
